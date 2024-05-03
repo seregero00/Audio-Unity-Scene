@@ -10,6 +10,12 @@ public class FootstepSound : MonoBehaviour
     public AudioClip[] footstepsWood;
 
     public string material = "";
+
+
+    private float timer = 0f;
+    public  float delay = 0.2f;
+
+    private bool moving;
     void PlayFootstepSound()
     {
         AudioSource audioSource = GetComponent<AudioSource>();
@@ -35,15 +41,39 @@ public class FootstepSound : MonoBehaviour
                 break;
         }
     }
-    private void OnCollisionEnter(Collision collision)
+    private void Update()
     {
-        material = collision.gameObject.tag;
+        if (timer > delay)
+        {
+            StartCoroutine(CheckMoving());
+            if (CheckGround() && moving) PlayFootstepSound();
+            timer = 0f;
+
+        }
+
+        timer += Time.deltaTime;
     }
 
-    private void OnCollisionStay(Collision collision)
+    private bool CheckGround()
     {
-        if (material != "Grass" && material != "Stone" && material != "Wood") return;
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit)) {
+            material = hit.collider.gameObject.tag;
+            return true;
+        }
+        return false;
+    }
 
-        PlayFootstepSound();
+    private IEnumerator CheckMoving()
+    {
+        Vector3 startPos = transform.position;
+        yield return new WaitForSeconds(1f);
+        Vector3 finalPos = transform.position;
+
+        if (startPos.x != finalPos.x || startPos.y != finalPos.y
+            || startPos.z != finalPos.z)
+            moving = true;
+        else moving = false;
+
     }
 }
