@@ -10346,13 +10346,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   footstepsGrass:
-  - {fileID: 8300000, guid: def0beeaa73f6ca4d9e4d086d2895b67, type: 3}
+  - {fileID: 8300000, guid: 5b2b2047f278a6b44a0f90b4b0712543, type: 3}
+  - {fileID: 8300000, guid: 7ebc39471e2ab2647ab34a296e4b89fd, type: 3}
+  - {fileID: 8300000, guid: 39c226ca75a60684480c048973511526, type: 3}
+  - {fileID: 8300000, guid: 878d1fa2fbe42e2458ba7626226e7ba9, type: 3}
+  - {fileID: 8300000, guid: d6b1a9634c1514346b5eb6e9a5af7cb0, type: 3}
+  - {fileID: 8300000, guid: c408eb2b5e407ba48a3fc494c5236d8d, type: 3}
+  - {fileID: 8300000, guid: ce2f7dc56450f8d4e911325276012698, type: 3}
+  - {fileID: 8300000, guid: 65317f1106f810d4e84ede91276c85a0, type: 3}
+  - {fileID: 8300000, guid: 1396bdbba62bc7e479487b07d5ef7ee5, type: 3}
+  - {fileID: 8300000, guid: 6f208d633cd525e4b8ab17fcfc24323c, type: 3}
   footstepsStone:
-  - {fileID: 8300000, guid: 0c255d6625d35e34492766757f16e11d, type: 3}
+  - {fileID: 8300000, guid: 11f276c9b520c9e42846dd0e8129f069, type: 3}
+  - {fileID: 8300000, guid: 1dceae701fbecc440bf6ffeb6c430bf5, type: 3}
+  - {fileID: 8300000, guid: 24357287fc9fb9242964f7f943ba0cea, type: 3}
+  - {fileID: 8300000, guid: cf3a5248e27a3fa46913fadcce8face7, type: 3}
+  - {fileID: 8300000, guid: 031b12607be51cc4c86cc1ede0fa0719, type: 3}
+  - {fileID: 8300000, guid: c22346c2b02e7964d9f5f9203872dda0, type: 3}
+  - {fileID: 8300000, guid: 595fb5ccc9b93f14cb291671668f4266, type: 3}
+  - {fileID: 8300000, guid: 79f01f04282dd1c46a769abb30f70464, type: 3}
+  - {fileID: 8300000, guid: e8d433d1deb0330458a6d7d3d53560fa, type: 3}
+  - {fileID: 8300000, guid: 227cccc59fe4e88499aeef674e1636af, type: 3}
+  - {fileID: 8300000, guid: d5fe672e1b37eef4f96e9f4ae3d043e0, type: 3}
+  - {fileID: 8300000, guid: ce8d115b68716dd4daf8e0b17e2c75d4, type: 3}
+  - {fileID: 8300000, guid: 2008f2e576fc68d4785f35bb9cff53ba, type: 3}
+  - {fileID: 8300000, guid: 8d357929cc4e10c4992f42491e6b185a, type: 3}
+  - {fileID: 8300000, guid: df0520b86fd25bd4db9029783b756375, type: 3}
+  - {fileID: 8300000, guid: 55981f652444a5f4c9f87d86c5e08d86, type: 3}
+  - {fileID: 8300000, guid: b19d5584d884f0044b29bd1e3da05b5f, type: 3}
+  - {fileID: 8300000, guid: 32c1636b50e26b042b09c55dd67221de, type: 3}
+  - {fileID: 8300000, guid: b31d265fe5bf5f646be6ed67ec44078c, type: 3}
+  - {fileID: 8300000, guid: a273bfac095bec34cbc65c2aa6adbcd6, type: 3}
+  - {fileID: 8300000, guid: ad0cac85d585108428fa16899994e9c4, type: 3}
+  - {fileID: 8300000, guid: 2d51de909fa0a504aa7d72a9757e1a2e, type: 3}
+  - {fileID: 8300000, guid: 1bca3fa087fb834478dadf024cbfeb9a, type: 3}
   footstepsWood:
-  - {fileID: 8300000, guid: 73f24402b9d1a5749b6df7fc0b998f98, type: 3}
+  - {fileID: 8300000, guid: 631bfa707862b724bb7bfd76c7d71975, type: 3}
+  - {fileID: 8300000, guid: 63af83174fbfcd24b936a204a00082e6, type: 3}
+  - {fileID: 8300000, guid: 04d0c9479effc1a4a8abcc85adb16090, type: 3}
+  - {fileID: 8300000, guid: 7f8d94279bedb3e4bb947116862f011f, type: 3}
+  - {fileID: 8300000, guid: accf8f385747b134e90af41117fda322, type: 3}
+  - {fileID: 8300000, guid: 93cd354ffc2ce95438a25f135a17a17c, type: 3}
+  - {fileID: 8300000, guid: e574214d811b9e94ab4553e90f499dca, type: 3}
+  - {fileID: 8300000, guid: 70c6096aff0429f4aa28749965fffe22, type: 3}
   material: 
-  delay: 0.2
+  delay: 0.4
 --- !u!82 &6615662580611611648
 AudioSource:
   m_ObjectHideFlags: 0
